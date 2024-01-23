@@ -106,6 +106,12 @@ const componentLinks: ComponentLinkProps[] = [
     icon: 'rss_feed',
     link: '/Kartlar',
   },
+  {
+    title: 'Kartlar',
+    caption: '@quasarframework',
+    icon: 'rss_feed',
+    link: '/BaslangicPage',
+  },
   
 ];
 

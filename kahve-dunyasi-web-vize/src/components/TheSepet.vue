@@ -3,7 +3,7 @@
       <div class="cart-header" style="background-color: #f7f8f9; padding: 20px">
         <div style="display: flex; align-items: center; justify-content: center">
           <img
-            src="../assets/images/cargo-car.png"
+            src="../assets/cargo-car.png"
             alt="Kargo Arabası"
             style="max-width: 32px; max-height: 20px"
           />
@@ -43,13 +43,13 @@
         </div>
         <a href="#comp3" class="additional-section">
           <img
-            src="../assets/images/logo.svg"
+            src="../assets/logo.svg"
             alt="Alt Sol Köşe Resmi"
             style="width: 92.5px; height: 92.5px"
           />
         </a>
         <img
-          src="../assets/images/guvenliodeme.png"
+          src="../assets/guvenliodeme.jpeg"
           alt="Sağdaki Resim"
           style="max-width: 150px; max-height: 40.44px"
         />
@@ -78,7 +78,7 @@
     </div>
     <a href="#" class="bottom-left-image">
       <img
-        src="../assets/images/cerez.jpeg"
+        src="../assets/cerez.jpeg"
         alt="Alt Sol Köşe Resmi"
         style="width: 42.5px; height: 42.5px"
       />

@@ -15,14 +15,14 @@
         >
           <img
             v-if="item === 'YILBAŞI ÖZEL'"
-            src="../assets/images/yilbasi.svg"
+            src="../assets/yilbasi.svg"
             alt="Yılbaşı özel"
             class="menu-icon"
             style="width: 10px"
           />
           <img
             v-if="item === 'DONDURMA'"
-            src="../assets/images/dondurma.svg"
+            src="../assets/dondurma.svg"
             alt="Dondurma"
             class="menu-icon"
             style="width: 30px"
@@ -37,7 +37,7 @@
               href="https://www.kahvedunyasi.com/turk-kahvesi-c-3400"
             >
               <img
-                src="../assets/images/turk_kahvesi.svg"
+                src="../assets/turk_kahvesi.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -45,7 +45,7 @@
             >
             <a href="https://www.kahvedunyasi.com/filtre-kahve-c-3401">
               <img
-                src="../assets/images/filtre_kahve.svg"
+                src="../assets/filtre_kahve.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -53,7 +53,7 @@
             >
             <a href="https://www.kahvedunyasi.com/yoresel-kahve-c-3402">
               <img
-                src="../assets/images/yoresel_kahve.svg"
+                src="../assets/yoresel_kahve.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -61,7 +61,7 @@
             >
             <a href="https://www.kahvedunyasi.com/espresso-c-3403">
               <img
-                src="../assets/images/espresso.svg"
+                src="../assets/espresso.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -69,7 +69,7 @@
             >
             <a href="https://www.kahvedunyasi.com/hazir-kahveler-c-3404">
               <img
-                src="../assets/images/hazir_kahve.svg"
+                src="../assets/hazir_kahve.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -77,7 +77,7 @@
             >
             <a href="https://www.kahvedunyasi.com/salep-ve-sicak-cikolata-c-3405">
               <img
-                src="../assets/images/sahlep_sicakcikolata.svg"
+                src="../assets/sahlep_sicakcikolata.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -85,7 +85,7 @@
             >
             <a href="https://www.kahvedunyasi.com/suruplar-c-3406">
               <img
-                src="../assets/images/surup.svg"
+                src="../assets/surup.svg"
                 alt=""
                 style="width: 50px; height: 50px; top: 1px"
               />
@@ -109,7 +109,7 @@
           control-color="black"
           navigation
           padding
-          arrows
+          :arrows-absolute="true"
           height="600px"
           class="text-white shadow-1"
         >
@@ -117,7 +117,7 @@
           <q-carousel-slide name="1" class="no-column no-wrap flex-center">
             <a href="https://www.kahvedunyasi.com/yilbasi-ozel-cl-195">
               <img
-                src="../assets/images/img1.jpg"
+                src="../assets/img1.jpg"
                 alt="Slide 1"
                 style="width: 100%; height: 100%; object-fit: contain"
               />
@@ -127,7 +127,7 @@
           <q-carousel-slide name="2" class="no-column no-wrap flex-center">
             <a href="https://www.kahvedunyasi.com/arama/Rochetta">
               <img
-                src="../assets/images/img2.jpg"
+                src="../assets/img2.jpg"
                 alt="Slide2"
                 style="width: 100%; height: 100%; object-fit: contain"
               />
@@ -139,7 +139,7 @@
               href="https://www.kahvedunyasi.com/arama/%C3%87%C4%B1t%C4%B1r%20Ceviz"
             >
               <img
-                src="../assets/images/img3.jpg"
+                src="../assets/img3.jpg"
                 alt="Slide 1"
                 style="width: 100%; height: 100%; object-fit: contain"
               />
@@ -148,7 +148,7 @@
           <q-carousel-slide name="4" class="no-column no-wrap flex-center">
             <a href="https://www.kahvedunyasi.com/sonbahar-lezzetleri-cl-174">
               <img
-                src="../assets/images/img4.jpg"
+                src="../assets/img4.jpg"
                 alt="Slide 1"
                 style="width: 100%; height: 100%; object-fit: contain"
               />
@@ -157,7 +157,7 @@
           <q-carousel-slide name="5" class="no-column no-wrap flex-center">
             <a href="https://www.kahvedunyasi.com/yilbasi-ozel-cl-195">
               <img
-                src="../assets/images/img5.jpg"
+                src="../assets/img5.jpg"
                 alt="Slide 1"
                 style="width: 100%; height: 100%; object-fit: contain"
               />
@@ -166,7 +166,7 @@
           <q-carousel-slide name="6" class="no-column no-wrap flex-center">
             <a href="https://www.kahvedunyasi.com/yilbasi-ozel-cl-195">
               <img
-                src="../assets/images/img6.jpg"
+                src="../assets/img6.jpg"
                 alt="Slide 1"
                 style="width: 100%; height: 100%; object-fit: contain"
               />

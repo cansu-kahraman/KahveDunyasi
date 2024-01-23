@@ -4,17 +4,21 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') },
-    { path: 'Blog', component: () => import('components/TheBlog.vue') },
-    { path: 'Koleksiyon', component: () => import('components/TheKoleksiyon.vue') },
-    { path: 'Ozellikler', component: () => import('components/TheOzellikler.vue') },
-    { path: 'YeniUrunler', component: () => import('components/YeniUrunler.vue') },
-    { path: 'Cookies', component: () => import('components/TheCookies.vue') },
-    { path: 'Giris', component: () => import('components/TheGiris.vue') },
-    { path: 'Kartlar', component: () => import('components/TheKartlar.vue') },
-    { path: 'Menu', component: () => import('components/TheMenu.vue') },
-    { path: 'KurumsalHediye', component: () => import('components/KurumsalHediye.vue') },
-    { path: 'Sepet', component: () => import('components/TheSepet.vue') },
+    children: [
+    { path: '', component: () => import('pages/IndexPage.vue') },
+    { path: '', component: () => import('src/pages/BaslangicPage.vue') },
+    { path: 'comp1', component: () => import('src/pages/YeniUrunlerPage.vue') },
+    { path: 'comp2', component: () => import('src/pages/OzelliklerPage.vue') },
+    { path: 'comp3', component: () => import('src/pages/SepetPage.vue') },
+  
+    { path: 'comp4', component: () => import('src/pages/MenuPage.vue') },
+    { path: 'comp5', component: () => import('src/pages/KoleksiyonPage.vue') },
+    { path: 'comp6', component: () => import('src/pages/KartlarPage.vue') },
+    { path: 'comp7', component: () => import('src/pages/GirisPage.vue') },
+    { path: 'comp8', component: () => import('src/pages/CookiesPage.vue') },
+    { path: 'comp9', component: () => import('src/pages/BlogPage.vue') },
+    { path: 'comp10', component: () => import('src/pages/KurumsalPage.vue') }
+  
   ]
   },
 

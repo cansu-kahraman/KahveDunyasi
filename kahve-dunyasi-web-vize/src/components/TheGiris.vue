@@ -144,7 +144,7 @@
 import { Form as veeForm, Field, ErrorMessage } from 'vee-validate'
 import { useRouter } from 'vue-router'
 import { ref, reactive, defineEmits } from 'vue'
-import useUserStore from '../../store/User.js'
+import {useUserStore} from '../../store/User.js'
 import { auth, signInWithEmailAndPassword } from '/src/services/firebase.ts'
 
 export default {
@@ -248,13 +248,12 @@ function onSubmit() {
       }
     })
     .catch((error) => {
-      const extractMsg = error.message.split('auth/')[1].split(')')[0]
-      const msgNoHypthens = extractMsg.replace(/-/g, ' ')
-
-      message.value = ${msgNoHypthens.charAt(0).toUpperCase()}${msgNoHypthens.slice(1)}
+      const extractMsg = error.message.split('auth/')[1].split(')')[0];
+      const msgNoHypthens = extractMsg.replace(/-/g, ' ');
+      message.value = '${msgNoHypthens.charAt(0).toUpperCase()}${msgNoHypthens.slice(1)}'
       //console.log(${error.message.split('auth/')[1].split(')')[0]})
-      message.type = 'error'
-      isSubmitting.value = false
+      message.type = 'error';
+      isSubmitting.value = false;
 
       // ..
     })
