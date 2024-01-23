@@ -12,14 +12,16 @@ import TheMenu from '../components/TheMenu.vue';
 import TheKartlar from '../components/TheKartlar.vue';
 import TheCookies from '../components/TheCookies.vue';
   
-  export default ({
+  export default {
     components: {
         TheKartlar,
         TheMenu,
         TheCookies}
     // Ana uygulama kodu
-  });
+  };
   </script>
+  
+  
   
   <style scoped>
   /* Ana uygulama için stil kuralları */

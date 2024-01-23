@@ -107,10 +107,22 @@ const componentLinks: ComponentLinkProps[] = [
     link: '/Kartlar',
   },
   {
-    title: 'Kartlar',
+    title: 'BaslangicPage',
     caption: '@quasarframework',
     icon: 'rss_feed',
     link: '/BaslangicPage',
+  },
+  {
+    title: 'UrunlerimPage',
+    caption: 'github.com/quasarframework',
+    icon: 'code',
+    link: '/UrunlerimPage',
+  },
+  {
+    title: 'BilgiPage',
+    caption: 'chat.quasar.dev',
+    icon: 'chat',
+    link: '/BilgiPage',
   },
   
 ];

@@ -141,11 +141,11 @@
 </template>
 
 <script>
-import { Form as veeForm, Field, ErrorMessage } from 'vee-validate'
-import { useRouter } from 'vue-router'
-import { ref, reactive, defineEmits } from 'vue'
-import {useUserStore} from '../../store/User.js'
-import { auth, signInWithEmailAndPassword } from '/src/services/firebase.ts'
+//import { Form as veeForm, Field, ErrorMessage } from 'vee-validate'
+//import { useRouter } from 'vue-router'
+//import { ref, reactive, defineEmits } from 'vue'
+//import {useUserStore} from '../../store/User.js'
+//import { auth, signInWithEmailAndPassword } from '/src/services/firebase.ts'
 
 export default {
   data() {

@@ -1,5 +1,5 @@
 <template>
-    <div class="q-pa-md row items-start q-gutter-md justify-center">
+    <div class="kartlar q-pa-md q-pt-xl row items-start q-gutter-md justify-center">
       <q-card class="my-card" @click="handleCardClick('coffee')">
         <img src="../assets/coffee.jpg" class="card-image" title="Kahve">
         <div class="text-subtitle2 absolute-top text-center" style="color: white; top: 50px; right: 50px; font-size: 20px; font-family: Gotham-Black, sans-serif;">
@@ -61,15 +61,21 @@
     }
   };
   </script>
+
   <style  scoped>
+  .kartlar{
+    padding-top: 150px;
+  }
   .my-card{
     width: 100%;
     max-width: 250px;
     cursor: pointer; 
     margin:23px;
+   
   }
   .card-image{
     width: 100%;
     height: auto;
+
   }
   </style>

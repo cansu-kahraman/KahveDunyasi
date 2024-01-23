@@ -119,38 +119,40 @@
 </template>
 
 <script setup>
+const products = [
+  {
+    name: 'Rochetta Sütlü 250 gr',
+    image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/3b3e3_Rochetta_Sutlu_250_gr.jpg',
+    price: '275 TL'
+  },
+  {
+    name: 'Citir_Ceviz Bitter 250 gr',
+    image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/4c805_Citir_Ceviz_Bitter_250_gr.jpg',
+    price: '245 TL'
+  },
+  {
+    name: 'Rochetta Bitter 250 gr',
+    image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/9c37a_Rochetta_Bitter_250_gr.jpg',
+    price: '275 TL'
+  },
+  {
+    name: 'Citir_Ceviz_Sutlu 250 gr',
+    image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/e4ca4_Citir_Ceviz_Sutlu_250_gr.jpg',
+    price: '245 TL'
+  },
+];
+</script>
 
+<script>
 export default {
   data() {
     return {
-      products: [
-        {
-          name: 'Rochetta Sütlü 250 gr',
-          image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/3b3e3_Rochetta_Sutlu_250_gr.jpg',
-          price: '275 TL'
-        },
-         {
-          name: 'Citir_Ceviz Bitter 250 gr',
-          image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/4c805_Citir_Ceviz_Bitter_250_gr.jpg',
-          price: '245 TL'
-        },
-         {
-          name: 'Rochetta Bitter 250 gr',
-          image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/9c37a_Rochetta_Bitter_250_gr.jpg',
-          price: '275 TL'
-        },
-         {
-          name: 'Citir_Ceviz_Sutlu 250 gr',
-          image: 'https://img-kahvedunyasi.mncdn.com/kahvedunyasi/product/250x250/e4ca4_Citir_Ceviz_Sutlu_250_gr.jpg',
-          price: '245 TL'
-        },
-        
-      ]
-      
+      products
     };
   }
 };
 </script>
+
 
 <style scoped>
 .row {

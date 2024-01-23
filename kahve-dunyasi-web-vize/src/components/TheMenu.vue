@@ -1,5 +1,5 @@
 <template>
-    <div class="main-content">
+    <div class="main-content" q-pb-lg>
       <div class="menu">
         <!-- Menu component -->
         <div

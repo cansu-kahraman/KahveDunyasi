@@ -6,18 +6,17 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
     { path: '', component: () => import('pages/IndexPage.vue') },
-    { path: '', component: () => import('src/pages/BaslangicPage.vue') },
-    { path: 'comp1', component: () => import('src/pages/YeniUrunlerPage.vue') },
-    { path: 'comp2', component: () => import('src/pages/OzelliklerPage.vue') },
-    { path: 'comp3', component: () => import('src/pages/SepetPage.vue') },
-  
-    { path: 'comp4', component: () => import('src/pages/MenuPage.vue') },
-    { path: 'comp5', component: () => import('src/pages/KoleksiyonPage.vue') },
-    { path: 'comp6', component: () => import('src/pages/KartlarPage.vue') },
-    { path: 'comp7', component: () => import('src/pages/GirisPage.vue') },
-    { path: 'comp8', component: () => import('src/pages/CookiesPage.vue') },
-    { path: 'comp9', component: () => import('src/pages/BlogPage.vue') },
-    { path: 'comp10', component: () => import('src/pages/KurumsalPage.vue') }
+    { path: 'BaslangicPage', component: () => import('src/pages/BaslangicPage.vue') },
+    { path: 'UrunlerimPage', component: () => import('src/pages/UrunlerimPage.vue') },
+    { path: 'BilgiPage', component: () => import('src/pages/BilgiPage.vue') },
+
+    { path: 'YeniUrunlerPage', component: () => import('src/pages/YeniUrunlerPage.vue') },
+    
+    { path: 'SepetPage', component: () => import('src/pages/SepetPage.vue') },
+   
+    { path: 'GirisPage', component: () => import('src/pages/GirisPage.vue') },
+    
+    { path: 'KurumsalPage', component: () => import('src/pages/KurumsalPage.vue') }
   
   ]
   },
